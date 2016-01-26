@@ -14,6 +14,7 @@
 		6D1B3EB71C4708800059DA09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D1B3EB51C4708800059DA09 /* Main.storyboard */; };
 		6D1B3EC21C4708800059DA09 /* DynamicFormularyiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1B3EC11C4708800059DA09 /* DynamicFormularyiOSTests.m */; };
 		6D1B3ECD1C4708800059DA09 /* DynamicFormularyiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1B3ECC1C4708800059DA09 /* DynamicFormularyiOSUITests.m */; };
+		6D6E7CD41C57F519000DF0D9 /* Punto.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6E7CD31C57F519000DF0D9 /* Punto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		6D1B3EC81C4708800059DA09 /* DynamicFormularyiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicFormularyiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D1B3ECC1C4708800059DA09 /* DynamicFormularyiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicFormularyiOSUITests.m; sourceTree = "<group>"; };
 		6D1B3ECE1C4708800059DA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D6E7CD21C57F519000DF0D9 /* Punto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Punto.h; sourceTree = "<group>"; };
+		6D6E7CD31C57F519000DF0D9 /* Punto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Punto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				6D1B3EAA1C4708800059DA09 /* AppDelegate.h */,
+				6D6E7CD21C57F519000DF0D9 /* Punto.h */,
+				6D6E7CD31C57F519000DF0D9 /* Punto.m */,
 				6D1B3EAB1C4708800059DA09 /* AppDelegate.m */,
 				6D1B3EB01C4708800059DA09 /* ViewController.h */,
 				6D1B3EB11C4708800059DA09 /* ViewController.m */,
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D6E7CD41C57F519000DF0D9 /* Punto.m in Sources */,
 				6D1B3EB21C4708800059DA09 /* ViewController.m in Sources */,
 				6D1B3EAF1C4708800059DA09 /* main.m in Sources */,
 				6D1B3EAC1C4708800059DA09 /* AppDelegate.m in Sources */,
@@ -489,6 +495,7 @@
 				6D1B3ED31C4708800059DA09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D1B3ED41C4708800059DA09 /* Build configuration list for PBXNativeTarget "DynamicFormularyiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +504,7 @@
 				6D1B3ED61C4708800059DA09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D1B3ED71C4708800059DA09 /* Build configuration list for PBXNativeTarget "DynamicFormularyiOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +513,7 @@
 				6D1B3ED91C4708800059DA09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
